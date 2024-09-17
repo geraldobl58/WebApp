@@ -25,8 +25,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            web-dashgo:v${{ github.run_number }}
-            web-dashgo:latest
+            webapp:v${{ github.run_number }}
+            webapp:latest
 
       # - name: Setup Node
       #   uses: actions/setup-node@v3
